@@ -1,2 +1,2 @@
 # Cyborg
-custom cyborg
+custom cyborg https://github.com/homow/Cyborg.git
