@@ -48,12 +48,28 @@ li {
 
 .header {
     padding-top: 1rem;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 500ms;
+    padding-bottom: 1rem;
+    z-index: 999;
 }
 
 .wrapper-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* fixed header */
+
+.header.fixed {
+    background-color: var(--primary__background-color);
+    box-shadow: 5px 4px 32px var(--primary__box-color);
+    transform: translateY(-10px);
 }
 
 /* left header */
