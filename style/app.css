@@ -54,7 +54,7 @@ li {
     left: 0;
     width: 100%;
     transition: 500ms;
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
     z-index: 999;
 }
 
