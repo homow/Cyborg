@@ -1,8 +1,14 @@
 const openMenu = document.querySelector(".right-header i")
 const navMenu = document.querySelector(".nav-menu")
-const aLink = document.querySelector("body a")
+const header = document.querySelector(".header")
 
-aLink.addEventListener("click", event => event.preventDefault())
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 20) {
+        header.classList.add("fixed")
+    } else {
+        header.classList.remove("fixed")
+    }
+})
 
 openMenu.addEventListener("click", event => {
     event.stopPropagation()
