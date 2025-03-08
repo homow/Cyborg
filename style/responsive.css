@@ -38,11 +38,11 @@
     }
     .nav-menu {
         box-shadow: 11px 4px 18px var(--primary__box-color);
-        z-index: 1000;
+        z-index: 10000;
         position: fixed;
         left: -250px;
         top: 0;
-        bottom: 0;
+        bottom: -10000px;
         background-color: var(--primary__background-color);
         padding: 1rem 3rem 0 3rem;
         display: flex;
